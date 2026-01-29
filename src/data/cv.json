@@ -1,0 +1,108 @@
+{
+  "name": "Daniele Dettori",
+  "role": "Full Stack Developer",
+  "email": "danieledtt06@gmail.com",
+  "location": "Tenerife, España",
+  "availability": "Disponible para nuevos proyectos",
+  
+  "summary": "Desarrollador apasionado por crear experiencias digitales excepcionales. Con más de 2 años de experiencia en desarrollo web y móvil, me especializo en construir aplicaciones modernas, escalables y centradas en el usuario. Mi enfoque combina la excelencia técnica con un ojo crítico para el diseño y la usabilidad.",
+
+  "socials": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/daniele-dettori-47463a337/",
+      "icon": "pi pi-linkedin"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/Pepepe14",
+      "icon": "pi pi-github"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com",
+      "icon": "pi pi-twitter"
+    }
+  ],
+
+  "stats": [
+    { "value": "2+", "label": "Años experiencia" },
+    { "value": "10+", "label": "Proyectos" },
+    { "value": "2", "label": "Clientes" },
+    { "value": "100%", "label": "Satisfacción" }
+  ],
+
+  "keySkills": [
+    "Vue.js",
+    "React",
+    "TypeScript",
+    "Node.js",
+    "Python",
+      "Django",
+    "PostgreSQL",
+    "MongoDB",
+    "Tailwind CSS",
+    "Docker",
+    "AWS",
+    "Figma",
+    "Git"
+  ],
+
+  "services": [
+    {
+      "id": "frontend",
+      "title": "Desarrollo Frontend",
+      "description": "Interfaces modernas y responsivas con Vue, React y las últimas tecnologías web.",
+      "icon": "pi pi-desktop",
+      "tags": ["Vue.js", "React", "TypeScript"]
+    },
+    {
+      "id": "backend",
+      "title": "Desarrollo Backend",
+      "description": "APIs robustas y escalables con Node.js, Python y bases de datos modernas.",
+      "icon": "pi pi-server",
+      "tags": ["Node.js", "Python", "PostgreSQL"]
+    },
+    {
+      "id": "mobile",
+      "title": "Apps Móviles",
+      "description": "Aplicaciones nativas y multiplataforma para iOS y Android.",
+      "icon": "pi pi-mobile",
+      "tags": ["React Native", "Flutter", "Firebase"]
+    },
+    {
+      "id": "design",
+      "title": "UI/UX Design",
+      "description": "Diseño centrado en el usuario con prototipos interactivos y sistemas de diseño.",
+      "icon": "pi pi-palette",
+      "tags": ["Figma", "Prototipos", "Design Systems"]
+    }
+  ],
+
+  "experience": [
+    {
+      "title": "Junior Developer",
+      "company": "Promineo Studios",
+      "period": "2025 (Mayo) - 2025 (Junio)",
+      "description": "Desarrollo de videojuegos en entorno Unity.",
+      "technologies": ["C#", "Unity Engine", "Git", "URP", "Visual Studio"]
+    }
+  ],
+
+  "education": [
+    {
+      "title": "2º CFGS Desarrollo de Aplicaciones Web",
+      "institution": "I.E.S Puerto de la Cruz - Telesforo Bravo",
+      "period": "2024 - 2026",
+      "status": "Pendiente"
+    }
+  ],
+
+  "contact": {
+    "email": "danieledtt06@gmail.com",
+    "phone": "+34 658 154 308",
+    "schedule": "Lun - Vie, 9:00 - 18:00",
+    "timezone": "GMT+0 (Islas Canarias - España)",
+    "responseTime": "24 horas"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "home": {
+    "headline": "Portafolio personal",
+    "subheadline": "Vue 3 + TypeScript + PrimeVue + PrimeFlex",
+    "ctaProjects": "Ver proyectos",
+    "ctaContact": "Contactar",
+    "greeting": "¡Hola! Soy"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Mi camino desde el desarrollo web hasta la creación de entornos interactivos.",
+    "intro": "Desarrollador con experiencia en frontend moderno y entornos Unity. Me especializo en construir soluciones escalables utilizando Vue y TypeScript, manteniendo siempre el foco en la optimización y las buenas prácticas."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Selección de trabajos y ejercicios. Sustituye los enlaces por tus repositorios reales.",
+    "cards": [
+      {
+        "title": "UT3-small-light (Docker + Nginx)",
+        "description": "Contenedor Nginx mínimo con configuración y recursos estáticos. Enfoque en despliegue y estructura.",
+        "link": "",
+        "tags": [
+          "Docker",
+          "Nginx"
+        ]
+      },
+      {
+        "title": "Tribu (Django)",
+        "description": "Aplicación web con autenticación, modelos y vistas. Práctica de backend y plantillas.",
+        "link": "",
+        "tags": [
+          "Python",
+          "Django"
+        ]
+      },
+      {
+        "title": "Portfolio (este proyecto)",
+        "description": "SPA con router, componentes reutilizables, datos en JSON e i18n.",
+        "link": "",
+        "tags": [
+          "Vue",
+          "TypeScript",
+          "PrimeVue"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Stack técnico y herramientas que utilizo para dar vida a ideas y aplicaciones.",
+    "cards": [
+      {
+        "name": "Vue",
+        "description": "Componentes, composición con <script setup>, rutas y estado local.",
+        "icon": "pi pi-bolt",
+        "level": 72,
+        "whereUsed": "Proyectos de clase y SPA"
+      },
+      {
+        "name": "TypeScript",
+        "description": "Tipado estático, interfaces, DTOs y refactor de componentes.",
+        "icon": "pi pi-code",
+        "level": 65,
+        "whereUsed": "Componentes y modelos de datos"
+      },
+      {
+        "name": "PrimeVue + PrimeFlex",
+        "description": "UI con componentes y layout responsive con utilidades.",
+        "icon": "pi pi-th-large",
+        "level": 70,
+        "whereUsed": "Este portafolio"
+      },
+      {
+        "name": "Git/GitHub",
+        "description": "Flujo básico de ramas, commits y publicación de repositorios.",
+        "icon": "pi pi-github",
+        "level": 60,
+        "whereUsed": "Trabajo diario"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experiencia",
+    "subtitle": "Un vistazo rápido a mi evolución profesional.",
+    "download": "Descargar CV (PDF)"
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes alguna propuesta o pregunta? Estoy a un mensaje de distancia.",
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "success": "Mensaje preparado. Sustituye este comportamiento por un backend o EmailJS si tu profesor lo permite.",
+    "validation": {
+      "required": "Campo obligatorio",
+      "email": "Formato de correo no válido"
+    }
+  },
+  "footer": {
+    "note": "Hecho con Vue + PrimeVue. Actualiza textos, enlaces y el CV."
+  }
+}
