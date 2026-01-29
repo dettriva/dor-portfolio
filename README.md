@@ -19,6 +19,8 @@
 8. [Optimizaciones Realizadas](#8-optimizaciones-realizadas)
 9. [Accesibilidad](#9-accesibilidad)
 10. [Instalación y Uso](#10-instalación-y-uso)
+11. [Prompts Utilizados en el Desarrollo](#11-prompts-utilizados-en-el-desarrollo)
+12. [Capturas de Pantalla](#12-capturas-de-pantalla)
 
 ---
 
@@ -512,7 +514,7 @@ const handleKeydown = (e: KeyboardEvent) => {
 
 ```bash
 # Clonar repositorio
-git clone https://github.com/dettriva/dor-project.git
+git clone https://github.com/dettriva/dor-portfolio.git
 
 # Instalar dependencias
 npm install
@@ -548,7 +550,160 @@ Este portafolio demuestra competencias en:
 
 ---
 
-**Repositorio:** [GitHub - dettriva/dor-project](https://github.com/dettriva/dor-project)
+## 11. Prompts Utilizados en el Desarrollo
+
+A continuación se documentan los prompts utilizados durante el desarrollo de este portafolio, organizados por funcionalidad:
+
+### 11.1 Auditoría y Optimización del Código
+
+**Prompt 1: Auditoría completa del frontend**
+```
+Realiza una auditoría completa del código frontend de este portafolio:
+1. Limpia CSS, JS, librerías y componentes no utilizados
+2. Optimiza el rendimiento
+3. Mejora la calidad del código
+4. Mejora UX/UI
+5. Prepara el proyecto para entrega académica
+```
+
+**Prompt 2: Revisión profesional**
+```
+Haz una revisión profesional del código:
+- Identifica código duplicado
+- Encuentra memory leaks
+- Detecta problemas de rendimiento
+- Sugiere mejoras de accesibilidad
+```
+
+### 11.2 Sistema de Temas (Dark/Light Mode)
+
+**Prompt 3: Implementación del tema oscuro**
+```
+Implementa un sistema de temas claro/oscuro que:
+- Use CSS custom properties
+- Persista la preferencia en localStorage
+- Respete prefers-color-scheme del sistema
+- Tenga transiciones suaves entre temas
+```
+
+**Prompt 4: Corrección de memory leak**
+```
+El composable useTheme tiene un memory leak porque el event listener
+de mediaQuery nunca se elimina. Corrige este problema implementando
+una función cleanup que se llame cuando el componente se desmonte.
+```
+
+### 11.3 Componentes Reutilizables
+
+**Prompt 5: Creación de componente CTA**
+```
+Crea un componente CtaSection.vue reutilizable para las secciones
+de "call to action" que se repiten en varias vistas. Debe aceptar:
+- icon: clase del icono
+- title: título de la sección
+- description: descripción
+- badge: etiqueta opcional
+- primaryAction: objeto con { to, label } para el botón principal
+- secondaryAction: objeto opcional para botón secundario
+```
+
+**Prompt 6: Tarjetas de habilidades con efectos**
+```
+Mejora TarjetaHabilidad.vue añadiendo:
+- Efecto spotlight que sigue el cursor
+- Sistema de niveles con colores (básico, intermedio, avanzado, experto)
+- Barra de progreso animada
+- Optimización con throttle para el evento mousemove
+```
+
+### 11.4 Optimización de Rendimiento
+
+**Prompt 7: Throttle para eventos de mouse**
+```
+Crea una utilidad throttle en src/utils/throttle.ts que limite
+la frecuencia de ejecución de funciones. Úsala para optimizar
+los handlers de mousemove en las tarjetas interactivas.
+```
+
+**Prompt 8: Passive event listeners**
+```
+Optimiza los event listeners de scroll añadiendo { passive: true }
+para mejorar el rendimiento del scroll en dispositivos móviles.
+```
+
+### 11.5 Accesibilidad
+
+**Prompt 9: Mejoras de accesibilidad WCAG**
+```
+Implementa mejoras de accesibilidad siguiendo WCAG 2.1:
+- Añade roles ARIA apropiados
+- Implementa navegación por teclado
+- Añade soporte para prefers-reduced-motion
+- Mejora los indicadores de foco visibles
+```
+
+### 11.6 Internacionalización
+
+**Prompt 10: Configuración de i18n**
+```
+Configura Vue I18n para soportar múltiples idiomas:
+- Usa Composition API mode (legacy: false)
+- Centraliza los textos en src/locales/
+- Implementa t() para strings y tm() para objetos/arrays
+```
+
+### 11.7 Documentación
+
+**Prompt 11: Documentación técnica**
+```
+Genera documentación técnica del portafolio como estudiante de 2º DAW
+para la asignatura DOR. Incluye:
+- Stack tecnológico con justificaciones
+- Arquitectura del proyecto
+- Explicación de componentes principales
+- Sistema de temas
+- Optimizaciones realizadas
+- Estándares de accesibilidad
+```
+
+---
+
+## 12. Capturas de Pantalla
+
+### Vista Principal (Home)
+*[Insertar captura de la página principal]*
+
+### Modo Oscuro vs Modo Claro
+*[Insertar comparativa de ambos temas]*
+
+### Vista de Habilidades
+*[Insertar captura mostrando las tarjetas de habilidades]*
+
+### Vista de Proyectos
+*[Insertar captura del grid de proyectos]*
+
+### Navegación Móvil
+*[Insertar captura del menú hamburguesa en móvil]*
+
+### Formulario de Contacto
+*[Insertar captura del formulario con validación]*
+
+---
+
+## Conclusión
+
+Este portafolio demuestra competencias en:
+
+1. **Desarrollo Frontend Moderno**: Vue 3, TypeScript, Composition API
+2. **Diseño de Sistemas**: CSS Custom Properties, temas dinámicos
+3. **UX/UI**: Animaciones, responsive design, micro-interacciones
+4. **Accesibilidad**: WCAG 2.1, semántica HTML, navegación por teclado
+5. **Optimización**: Lazy loading, eliminación de código muerto, rendimiento
+6. **Buenas Prácticas**: Código limpio, separación de responsabilidades, tipado
+
+---
+
+**Repositorio:** [GitHub - dettriva/dor-portfolio](https://github.com/dettriva/dor-portfolio)
 
 ---
 
