@@ -20,7 +20,6 @@
 9. [Accesibilidad](#9-accesibilidad)
 10. [Instalación y Uso](#10-instalación-y-uso)
 11. [Prompts Utilizados en el Desarrollo](#11-prompts-utilizados-en-el-desarrollo)
-12. [Capturas de Pantalla](#12-capturas-de-pantalla)
 
 ---
 
@@ -665,28 +664,6 @@ para la asignatura DOR. Incluye:
 - Optimizaciones realizadas
 - Estándares de accesibilidad
 ```
-
----
-
-## 12. Capturas de Pantalla
-
-### Vista Principal (Home)
-*[Insertar captura de la página principal]*
-
-### Modo Oscuro vs Modo Claro
-*[Insertar comparativa de ambos temas]*
-
-### Vista de Habilidades
-*[Insertar captura mostrando las tarjetas de habilidades]*
-
-### Vista de Proyectos
-*[Insertar captura del grid de proyectos]*
-
-### Navegación Móvil
-*[Insertar captura del menú hamburguesa en móvil]*
-
-### Formulario de Contacto
-*[Insertar captura del formulario con validación]*
 
 ---
 
